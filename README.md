@@ -16,4 +16,5 @@ Hay que distinguir entre tres formas de obtener información.
 ### Google:
 ```
 site:dominio > busca solo en las páginas perteneciende a un determinado dominio
+filetype:rtf > busca solo en archivos con una determinada extensión. En este caso .rft
 ```
