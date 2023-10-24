@@ -15,5 +15,5 @@ Hay que distinguir entre tres formas de obtener información.
 ## Búsqueda de información pasiva.
 ### Google:
 ```
-site:dominio
+site:dominio > busca solo en las páginas perteneciende a un determinado dominio
 ```
