@@ -12,3 +12,6 @@ Hay que distinguir entre tres formas de obtener información.
 2. Semi-activa
 3. Activa
 
+## Búsqueda de información pasiva.
+### Google:
+'site:dominio'
