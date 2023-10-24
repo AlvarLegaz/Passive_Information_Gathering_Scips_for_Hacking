@@ -8,7 +8,7 @@ El hacking ético es un término utilizado para englobar el conjunto de activida
 
 
 Hay que distinguir entre tres formas de obtener información.
-1. **Pasiva:** es el proceso de obtención de información subceptible a ser usada en ataques valiendose de información sobre pesonas, organizaciones o dispositivos que se encuentran indexadas en buscadores. Este método de detección no implica la interactuación del hacker con el objetivo.
+1. **Pasiva:** es el proceso de obtención de información subceptible a ser usada en ataques valiendose de información sobre pesonas, organizaciones o dispositivos que se encuentran indexadas en buscadores. Este método de detección no implica la interactuación del hacker con el objetivo. Por ejemplo, podemos encontrar email de los miembros de una compañía y usar ese mail como vector de ataque, para phising, etc.
 2. Semi-activa
 3. Activa
 
