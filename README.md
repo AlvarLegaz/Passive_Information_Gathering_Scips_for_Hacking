@@ -15,7 +15,13 @@ Hay que distinguir entre tres formas de obtener información.
 ## Búsqueda de información pasiva.
 ### Google:
 ```
+* comodin para incluir cualquier valor en busqueda.	
+ -"Liga de * femenino"
 site:dominio > busca solo en las páginas perteneciende a un determinado dominio
-site:google.es
+  site:google.es
 filetype:txt > busca solo en archivos con una determinada extensión
+and operador logico y
+or operador lógico o
+  site:google.es and filetype:txt
+
 ```
