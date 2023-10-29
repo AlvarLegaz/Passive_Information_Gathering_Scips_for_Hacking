@@ -29,5 +29,15 @@ or operador lógico o
 Shodan es un motor de búsqueda que le permite encontrar diferentes equipos (host) conectados a Internet a través de una variedad de filtros. El funciononamiento básico es que Shodan hace peticiones a todas las ips conectadas a internet para detectar los puertos y servicios que están ejecutando e indexan en su buscador. Las busquedas se puede realizar mediante comandos específicos introducidos al buscador.
 
 ```
-asda
+ip_str:"46.252.132.235" busca una ip determinada
+port: 4800 un puerto
+city	Name of the city	Devices in San Diego
+country	2-letter Country code	Open ports in the United States
+http.title	Title of the website	"Hacked" Websites
+net	Network range or IP in CIDR notation	Services in the range of 8.8.0.0 to 8.8.255.255
+org	Name of the organization that owns the IP space	Devices at Google
+port	Port number for the service that is running	SSH servers
+product	Name of the software that is powering the service	Samsung Smart TVs
+screenshot.label	Label that describes the content of the image	Screenshots of Industrial Control Systems
+state	U.S. State	Devices in Texas
 ```
