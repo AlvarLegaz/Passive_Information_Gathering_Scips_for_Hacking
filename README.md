@@ -26,18 +26,19 @@ or operador lógico o
 
 ```
 ### Shodan
-Shodan es un motor de búsqueda que le permite encontrar diferentes equipos (host) conectados a Internet a través de una variedad de filtros. El funciononamiento básico es que Shodan hace peticiones a todas las ips conectadas a internet para detectar los puertos y servicios que están ejecutando e indexan en su buscador. Las busquedas se puede realizar mediante comandos específicos introducidos al buscador.
+Shodan es un motor de búsqueda que le permite encontrar diferentes equipos (host) conectados a Internet a través de una variedad de filtros. El funciononamiento básico es que Shodan hace peticiones a todas las ips conectadas a internet para detectar los puertos y servicios que están ejecutando e indexan en su buscador. 
 
+Las busquedas se realiza mediante comandos específicos introducidos al buscador. A continuación se detallan algunos de ellos, los cuales han sidos extraidos de https://hackingparanovatos.wordpress.com/2017/08/23/buscar-en-shodan-filtros/
 ```
-ip_str:"46.252.132.235" busca una ip determinada
-port: 4800 un puerto
-city	Name of the city	Devices in San Diego
-country	2-letter Country code	Open ports in the United States
-http.title	Title of the website	"Hacked" Websites
-net	Network range or IP in CIDR notation	Services in the range of 8.8.0.0 to 8.8.255.255
-org	Name of the organization that owns the IP space	Devices at Google
-port	Port number for the service that is running	SSH servers
-product	Name of the software that is powering the service	Samsung Smart TVs
-screenshot.label	Label that describes the content of the image	Screenshots of Industrial Control Systems
-state	U.S. State	Devices in Texas
+country: Para buscar en un país en específico. country:py
+city: Filtro por ciudad. city:»Los Angeles»
+port: Para buscar dispositivos que tengan un puerto abierto. port:3306
+net: Búsqueda de una ip específica o rangos de ip. ip:182.93.44.0/24
+hostname: Busca el texto que le indiquemos en el nombre del host. hostname:iplocal
+geo: Buscar dispositivos mediante coordenadas. geo:32.9775,-70.1293
+os: Para listar un sistema operativo determinado. os:Linux
+after: Dispositivos agregados después de la fecha.
+before: Lo mismo, pero antes de la fecha. after/before:27/03/2015
+has_screenshot: Nos muestra dispositivos de los cuales hay una captura. has_screenshot:true
+
 ```
