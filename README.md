@@ -25,3 +25,9 @@ or operador lógico o
   site:google.es and filetype:txt
 
 ```
+### Shodan
+Shodan es un motor de búsqueda que le permite encontrar diferentes equipos (host) conectados a Internet a través de una variedad de filtros. El funciononamiento básico es que Shodan hace peticiones a todas las ips conectadas a internet para detectar los puertos y servicios que están ejecutando e indexan en su buscador. Las busquedas se puede realizar mediante comandos específicos introducidos al buscador.
+
+```
+asda
+```
