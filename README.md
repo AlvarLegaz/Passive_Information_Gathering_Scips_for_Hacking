@@ -60,6 +60,14 @@ services.http.response.html_title: dashboard Hosts with a page title on an HTTP 
 
 ```
 
+### DNSdumpster
+https://dnsdumpster.com/
+
+Herramienta totalmente gratuita diseñada para facilitarnos el análisis de cualquier dominio y poder obtener en segundos todo tipo de información relacionada con este. Esta herramienta no utiliza la fuerza bruta como pueden usar otras similares, sino que recurre a la Open Source Intelligence para encontrar más rápidamente toda la información relacionada con el dominio que nos interese analizar.
+
+Esta herramienta va mucho más allá de una simple consulta DNS lookup. Con DNSdumpster podemos descubrir todos los subdominios relacionados con un dominio concreto, además de todos los hosts web. Los datos se obtienen a través de consultas en plataformas como Alexa Top 1 Million, motores de búsqueda (Google, Bing, etc), Common Crawl, Certificate Transparency, Max Mind, Team Cymru, Shodan y scans.io.
+[![Imagen de la busqueda](https://www.redeszone.net/app/uploads-redeszone.net/2019/01/analisis-DNSdumpster-Google-655x330.png)
+
 ### Have I Been Pwned?
 [haveibeenpwned.com](https://haveibeenpwned.com/)
 Have I Been Pwned? es un sitio web que permite a los usuarios de Internet comprobar si sus datos personales se han visto comprometidos por violaciones de datos.
