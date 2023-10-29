@@ -44,7 +44,7 @@ os: Para listar un sistema operativo determinado. os:Linux
 after: Dispositivos agregados después de la fecha.
 before: Lo mismo, pero antes de la fecha. after/before:27/03/2015
 has_screenshot: Nos muestra dispositivos de los cuales hay una captura. has_screenshot:true
-
+```
 ### Censys
 https://search.censys.io/
 Se trata de otro motor de búsqueda de dispositivos conectados a internet, al estilo de Shodan. La diferencia es como se indexa la info. Lo que hace es escanear todos los dias internet con zmap y zgrab. Esto permite realizar una indexación diferente a shodam. Esto permite acceder a info más actualizada.
@@ -57,6 +57,7 @@ services.port: {21, 22, 23, 24, 25} Hosts with any of the following port numbers
 labels: {remote-access, file-sharing} and location.continent:Europe  Hosts with a service that enables remote access or file sharing in Europe
 services.http.response.html_title: dashboard Hosts with a page title on an HTTP service containing the word "dashboard"
 ("Index of") and services.service_name:SSH Hosts with the phrase "Index of" anywhere that also have an SSH service exposed
+
 ```
 
 ### Have I Been Pwned?
