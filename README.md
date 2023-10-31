@@ -6,6 +6,14 @@ Repositorio con scrips básicos para *hacking ético*.
 
 El hacking ético es un término utilizado para englobar el conjunto de actividades que realizan los hackers éticos para mejorar la seguridad de los sistemas informáticos de las empresas que les contratan, con el fin de evitar un posible ataque cibernético que conlleve, entre otros peligros, el robo de información.[referencia](https://www.obicex.es/blog/aprende-con-obicex/que-significa-ser-un-hacker-etico#:~:text=El%20hacking%20%C3%A9tico%20es%20un,peligros%2C%20el%20robo%20de%20informaci%C3%B3n)
 
+### El proceso de hacking ético.
+
+El proceso de hacking ético puede dividirse en diferentes etapas.
+1. Recopilación de información pasiva.
+2. Análisis activo del objetiovo.
+3. Detección de vulnerabilidades.
+4. Explotación de vulnerabilidades.
+5. Elaboración de informe recopilando toda el proceso.
 
 Hay que distinguir entre tres formas de obtener información.
 1. **Pasiva:** es el proceso de obtención de información subceptible a ser usada en ataques valiendose de información sobre pesonas, organizaciones o dispositivos que se encuentran indexadas en buscadores. Este método de detección no implica la interactuación del hacker con el objetivo. *Por ejemplo, podemos encontrar emails de miembros de una compañía y usar ese mail como vector de ataque, para phising, etc.*
