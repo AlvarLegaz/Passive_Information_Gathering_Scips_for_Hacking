@@ -71,7 +71,7 @@ El servicio recopila y analiza cientos de ficheros de bases de datos que contien
 
 ### NMAP
 
-- Host discovery: descubre los host 
+#### Host discovery: descubre los host 
 - -  ```nmap -sn <ip/mask>``` Descubrimiento mediante TCP
 -  ```sudo nmap -sn <ip/mask>``` Descubirmiento mediante ARP, menos intrusivo.
 -  Host discovery y que puertos estan abiertos.
