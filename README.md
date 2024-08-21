@@ -72,9 +72,21 @@ El servicio recopila y analiza cientos de ficheros de bases de datos que contien
 ### NMAP
 
 #### Host discovery: descubre los host 
-- -  ```nmap -sn <ip/mask>``` Descubrimiento mediante TCP
+- ```nmap -sn <ip/mask>``` Descubrimiento mediante TCP
 -  ```sudo nmap -sn <ip/mask>``` Descubirmiento mediante ARP, menos intrusivo.
 -  Host discovery y que puertos estan abiertos.
 -  ```nmap -PS <ip/m>``` Envía paquete TCP vacío, nos dice los host y puertos abiertos
 -  ```nmap -PS <ip/m> -p <port>``` Hace host discover y luego analisis del puerto especifico.
 -  ```nmap -PS <PORT1,PORT2,...,N> <ip/m> -p <port>``` Hace host discover a diferentes puertos y solo analiza el puerto especifico y luego analisis del puerto especifico.
+
+#### Port Scan: escanea puertos e identifica los servicios.
+- ```nmap -sS <ip/mask>``` Escanea todos los puertos mediante TCP SYN scan
+- ```nmap -sT <ip/mask>``` Escanea todos los puertos mediante TCP connected scan
+- ```nmap -sU <ip/mask>``` Escanea todos los puertos mediante UDP scan
+- ```nmap -sS <ip/mask> -p <POTY>``` Escanea puerto especifico por el método elegido.
+
+El estado de los puertos tras realizar el escaneo puede ser:
+- Abierto
+- Cerrado
+- Filtrado: puede que haya un firewall o algo por delante.
+- No filtrado: puerto accesible pero NMAP no es capaz de determinar si está abierto o cerrado.
