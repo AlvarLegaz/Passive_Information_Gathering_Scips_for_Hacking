@@ -66,3 +66,15 @@ Esta herramienta va mucho más allá de una simple consulta DNS lookup. Con DNSd
 Have I Been Pwned? es un sitio web que permite a los usuarios de Internet comprobar si sus datos personales se han visto comprometidos por violaciones de datos.
 
 El servicio recopila y analiza cientos de ficheros de bases de datos que contienen información sobre miles de millones de cuentas filtradas, y permite a los usuarios buscar su propia información introduciendo su nombre de usuario o dirección de correo electrónico. Los usuarios también pueden inscribirse para que se les notifique si su dirección de correo electrónico aparece en futuros volcados. 
+
+## Búsqueda de información Activa
+
+### NMAP
+
+- Host discovery: descubre los host 
+- -  ```nmap -sn <ip/mask>``` Descubrimiento mediante TCP
+-  ```sudo nmap -sn <ip/mask>``` Descubirmiento mediante ARP, menos intrusivo.
+-  Host discovery y que puertos estan abiertos.
+-  ```nmap -PS <ip/m>``` Envía paquete TCP vacío, nos dice los host y puertos abiertos
+-  ```nmap -PS <ip/m> -p <port>``` Hace host discover y luego analisis del puerto especifico.
+-  ```nmap -PS <PORT1,PORT2,...,N> <ip/m> -p <port>``` Hace host discover a diferentes puertos y solo analiza el puerto especifico y luego analisis del puerto especifico.
