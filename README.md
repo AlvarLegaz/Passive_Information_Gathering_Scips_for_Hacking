@@ -1,4 +1,4 @@
-# Linux_Scips_for_Hacking
+# Information Gathering for Pentesting
 Scrip básico para recolección de información pasiva para análisis de vulnerabilidades.
 
 ### Hay que distinguir entre dos formas de obtener información.
