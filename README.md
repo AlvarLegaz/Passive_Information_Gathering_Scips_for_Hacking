@@ -53,7 +53,7 @@ services.http.response.html_title: dashboard Hosts with a page title on an HTTP 
 
 ```
 
-### **What is WHOIS**
+### **WHOIS**
  is an internet protocol used to query databases that store information about registered users of domain names and IP addresses. It provides details such as registration dates, ownership, contact information, and nameserver information for domains. This information is useful for identifying domain ownership and verifying the availability of domain names.
 
 <img width="1161" height="260" alt="Image" src="https://github.com/user-attachments/assets/4103b13c-cf91-4785-b3ac-ae0a2630a929" />
