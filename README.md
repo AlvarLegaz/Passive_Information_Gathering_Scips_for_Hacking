@@ -54,7 +54,7 @@ services.http.response.html_title: dashboard Hosts with a page title on an HTTP 
 ```
 
 ### **WHOIS**
- is an internet protocol used to query databases that store information about registered users of domain names and IP addresses. It provides details such as registration dates, ownership, contact information, and nameserver information for domains. This information is useful for identifying domain ownership and verifying the availability of domain names.
+Protocolo de Internet utilizado para consultar bases de datos que almacenan información sobre los usuarios registrados de nombres de dominio y direcciones IP. Proporciona detalles como fechas de registro, titularidad, información de contacto y datos de los servidores de nombres (nameservers) de los dominios. Esta información es útil para identificar la propiedad de un dominio y verificar la disponibilidad de nombres de dominio.
 
 <img width="1161" height="260" alt="Image" src="https://github.com/user-attachments/assets/4103b13c-cf91-4785-b3ac-ae0a2630a929" />
 
