@@ -80,7 +80,8 @@ El servicio recopila y analiza cientos de ficheros de bases de datos que contien
 #### Host discovery: descubre los host 
 - ```nmap -sn <ip/mask>``` Descubrimiento mediante TCP
 -  ```sudo nmap -sn <ip/mask>``` Descubirmiento mediante ARP, menos intrusivo.
--  Host discovery y que puertos estan abiertos.
+
+#### Host discovery y que puertos estan abiertos.
 -  ```nmap -PS <ip/m>``` Envía paquete TCP vacío, nos dice los host y puertos abiertos
 -  ```nmap -PS <ip/m> -p <port>``` Hace host discover y luego analisis del puerto especifico.
 -  ```nmap -PS <PORT1,PORT2,...,N> <ip/m> -p <port>``` Hace host discover a diferentes puertos y solo analiza el puerto especifico y luego analisis del puerto especifico.
